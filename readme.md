@@ -6,7 +6,7 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 
 ## Table of Content
 
-- [ ] 01. JavaScript Drumkit
+- [x] 01. JavaScript Drumkit
 - [ ] 02. JS & CSS Clock
 - [ ] 03. CSS Variables
 - [ ] 04. Array Cardio Day 1
