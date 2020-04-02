@@ -31,28 +31,28 @@
 
     // Array.prototype.filter()
     // 1. Filter the list of inventors for those who were born in the 1500's
-    const oldest = inventors.filter(inventor => inventor.year >= 1500 && inventor.year < 1600);
-    console.log(oldest);
+    const bornInFifteens = inventors.filter(year => year >= 1500 && year <= 1599);
+    console.table(bornInFifteens);
+
     // Array.prototype.map()
     // 2. Give us an array of the inventors' first and last names
-    const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`);
-    console.log(fullNames);
+ 
+
+
     // Array.prototype.sort()
     // 3. Sort the inventors by birthdate, oldest to youngest
-    const sortInventors = inventors.sort((a,b) => a.year > b.year ? 1 : -1);
-    console.log(sortInventors);
+  
+
 
     // Array.prototype.reduce()
     // 4. How many years did all the inventors live?
-    const yearsLived = inventors.reduce((years, inventor) => {
-      return years + (inventor.passed - inventor.year);
-    }, 0);
+
+
 
     // 5. Sort the inventors by years lived
-    const longestLived = inventors.sort(function(a,b) {
-      let lastInventor = b.passed - b.year;
-      let nextInventor = a.passed - a.year;
-      return lastInventor > nextInventor ? 1 : -1;
+    const longestLived = 
+
+
     });
     console.table(longestLived);
 
@@ -61,25 +61,14 @@
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
-    const sortLastName = people.sort((last,next) => {
-      let [alast, afirst] = last.split(', ');
-      let [blast, bfirst] = next.split(', ');
-      return alast > blast ? 1 : -1;
-    });
-    console.log(sortLastName);
+
+
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
 
-    const transportation = data.reduce(function(instance, vehicle) {
-      if(!instance[vehicle]) {
-        instance[vehicle] = 0;
-      }
-      instance[vehicle]++;
-      return instance;
-    }, {});
-    console.log(transportation);
+
 
   </script>
 </body>
