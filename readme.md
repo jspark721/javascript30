@@ -10,6 +10,6 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 - [x] 02. JS & CSS Clock
 - [x] 03. CSS Variables
 - [x] 04. Array Cardio Day 1
-- [ ] 05. Flex Panel Gallery
-- [ ] 06. Type Ahead
-- [ ] 07. Array Cardio Day 2
+- [x] 05. Flex Panel Gallery
+- [x] 06. Type Ahead
+- [x] 07. Array Cardio Day 2
