@@ -14,8 +14,8 @@ Grab the course at [https://JavaScript30.com](https://JavaScript30.com)
 - [x] 06. Type Ahead
 - [x] 07. Array Cardio Day 2
 - [ ] 08. Fun with HTML5 Canvas
-- [ ] 09. Dev Tools Domination
-- [ ] 10. Hold Shift and Check Checkboxes
+- [x] 09. Dev Tools Domination
+- [x] 10. Hold Shift and Check Checkboxes
 - [ ] 11. Custom Video Player
 - [ ] 12. Key Sequence Detection
 - [ ] 13. Slide in on Scroll
